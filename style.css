@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(201, 214, 243);
+}
+
+.Logo {
+    width: 200px;
+    height: 20;
+    display: block;
+    margin: 10px auto 0;
+    z-index: 0;
+
+}
+
+main {
+    width: 400px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 34px 24px 13px;
+
+
+}
+
+label {
+    color: #0a0a0a77;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+select,
+input {
+    background: #ffffff;
+    border: 1px solid #4b3838;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    appearance: none;
+    color: rgb(15, 43, 85);
+    cursor: pointer;
+    outline: none;
+}
+
+button {
+    width: 350px;
+    height: 48px;
+    top: 329px;
+    left: 24px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(201, 214, 243);
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border: 1px solid rgb(56, 81, 134);
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow-img {
+    margin: 15px 0;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency {
+    color: blue;
+    font-size: 14px;
+}
+
+.currency-value-dolar {
+    color: blue;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.currency-value {
+    color: blue;
+    font-weight: 700;
+    font-size: 20px;
+}
